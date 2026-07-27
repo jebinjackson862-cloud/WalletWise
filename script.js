@@ -33,8 +33,9 @@ displayTransactions();
 
 updateSummary();
 
-form.reset();
+updateCharts(transactions);
 
+form.reset();
 }
 
 function displayTransactions(){
